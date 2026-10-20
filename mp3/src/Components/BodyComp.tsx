@@ -23,6 +23,7 @@ const BodyStyling = styled.div`
 `
 
 const MainStyles = styled.div`
+    // Main Styling
     background-color: #FCFAF5;
     font-size: calc(2px + 1.4vw);
     width: 80%;

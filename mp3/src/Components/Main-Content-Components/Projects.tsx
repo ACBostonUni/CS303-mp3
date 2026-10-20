@@ -50,11 +50,13 @@ export default function Projects(){
         setOutput("");
     }
 
+
+    document.title = "Projects | AC Resume"
+
+
     return (
         <>
-            {
-                document.title = "Projects | AC Resume"
-            }
+
 
             <StyledH5> Calculator Project !</StyledH5>
 

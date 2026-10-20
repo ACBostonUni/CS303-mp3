@@ -1,12 +1,15 @@
 import {StyledH5, StyledSkillsPhoto, StyledUL} from "../StyledComponents.tsx";
 import SkillsPhoto from "../../assets/life-skills.png";
 export default function Skills(){
+
+
+    document.title = "Skills | AC Resume"
+
+
     return (
 
         <>
-            {
-                document.title = "Skills | AC Resume"
-            }
+
 
             <StyledH5>
                 Skills and Talents

@@ -2,11 +2,14 @@ import {StyledBUPhoto, StyledH5, StyledNWECHSPhoto, StyledText} from "../StyledC
 import BUPhoto from "../../assets/boston_university_terriers_logo_secondary_20156280.png"
 import NwechsPhoto from "../..//assets/Screenshot_20260920_130634_Chrome.jpg"
 export default function Eduction(){
+
+
+    document.title = "Education | AC Resume"
+
+
     return (
         <>
-            {
-                document.title = "Education | AC Resume"
-            }
+
             <StyledH5>Education</StyledH5>
             <StyledBUPhoto src={BUPhoto} alt="Boston University Logo"/>
 

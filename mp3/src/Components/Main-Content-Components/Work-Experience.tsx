@@ -4,15 +4,17 @@ import CNPhoto from "../../assets/Code_Ninjas_Color_Horizontal_Logo.jpg";
 
 
 export default function WorkExperience(){
+
+    document.title = "Work-Experience | AC Resume"
+
+
     return (
 
 
 
         <>
 
-            {
-                document.title = "Work-Experience | AC Resume"
-            }
+
 
             <StyledH5>Work Experience</StyledH5>
 

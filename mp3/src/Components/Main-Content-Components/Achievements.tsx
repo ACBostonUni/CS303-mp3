@@ -2,12 +2,15 @@ import {StyledACHPhoto, StyledH5, StyledUL} from "../StyledComponents.tsx";
 import ACHPhoto from "../../assets/achimg.png";
 
 export default function Eduction(){
+
+
+    document.title = "Achievements | AC Resume"
+
+
     return (
 
         <>
-            {
-                document.title = "Achievements | AC Resume"
-            }
+
 
             <StyledH5>Achievements</StyledH5>
             <StyledACHPhoto src={ACHPhoto} alt="Clip art of an achievement badge"/>

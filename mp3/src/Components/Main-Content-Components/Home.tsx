@@ -5,13 +5,13 @@ import ACPhoto from "../../assets/Screenshot_20260920_103822_Photos.jpg"
 
 export default function Home() {
 
+
+    document.title = "Home | AC Resume"
+
+
     return (
 
         <>
-
-            {
-                document.title = "Home | AC Resume"
-            }
             <StyledH5>Home</StyledH5>
 
             <StyledACPhoto src={ACPhoto} alt="Austin Armando Camanez" id="ACPhoto"/>

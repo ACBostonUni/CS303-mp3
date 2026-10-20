@@ -4,16 +4,18 @@ import {Link} from "react-router";
 const NavBar = styled.nav`
     
         background: linear-gradient(to right, #F5EBEB 95%, #FCFAF5 100%); /*I googled the syntax to make a gradient transition between nav and main*/
-        padding: 1% 2%;                                                     /* I chose 95% because I like the sharp gradient effect*/
+        padding: 1% 1%;                                                     /* I chose 95% because I like the sharp gradient effect*/
         width: 20%;
-    
+        
+        
         
        
 
     @media screen and (max-width: 800px){
-        width: 96%;
+        width: 98%;
         height: 10vh;
         background: linear-gradient(to bottom, #F5EBEB 90%, #FCFAF5 100%);
+        margin: auto;
     }
 
 
@@ -46,10 +48,11 @@ const NavLi = styled.li`
     width: 12vw;
     height: 11vh;
     
+    
     @media screen and (max-width: 800px){
         margin: 2% 0.5%;
         height: 6vh;
-        width: 20vw;
+        width: 18vw;
         padding: 1%;
     }
 `

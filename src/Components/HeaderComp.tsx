@@ -10,7 +10,7 @@ const Header = styled.header`
     }
 
     @media screen and (max-width:800px){
-        
+        padding-left: 0;
         text-align: center; // Add this in, made a mistake on mp1
 
     }

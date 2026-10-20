@@ -1,29 +1,31 @@
-import {Routes, Route} from "react-router";
-import Home from "./Main-Content-Components/Home.tsx";
-import Education from "./Main-Content-Components/Education.tsx";
-import Work_Experience from "./Main-Content-Components/Work-Experience.tsx";
-import Achievements from "./Main-Content-Components/Achievements.tsx";
-import Skills from "./Main-Content-Components/Skills.tsx";
-import Projects from "./Main-Content-Components/Projects.tsx";
-import Nav from "./NavBar.tsx"
+import styled from 'styled-components';
+import HeaderComp from "./HeaderComp.tsx";
+import BodyComp from "./BodyComp";
+import FooterComp from "./FooterComp.tsx";
+// Maybe just build the header , this, then footer
 
+const StyledWrapper = styled.div`
+    width: 85%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 800px){
+        width: 90%;
+    }
+`
 export default function Root(){
     return(
         <>
-            <Nav/>
-            <Routes>
-                <Route path={"/"} element={Home}/>
-                <Route path={"/education"} element={Education}/>
-                <Route path = {'/work-experience'} element={Work_Experience}/>
-                <Route path = {'/achievements'} element={Achievements}/>
-                <Route path = {'/skills'} element={Skills}/>
-                <Route path = {'/projects'} element={Projects}/>
+            <StyledWrapper>
 
 
-            </Routes>
+                <HeaderComp />
 
+                <BodyComp />
 
+                <FooterComp />
+
+            </StyledWrapper>
 
         </>
-    );
+    )
 }

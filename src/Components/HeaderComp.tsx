@@ -8,6 +8,12 @@ const Header = styled.header`
     h1, h3{
         color: #FCFAF5;
     }
+
+    @media screen and (max-width:800px){
+        
+        text-align: center; // Add this in, made a mistake on mp1
+
+    }
     
 `
 

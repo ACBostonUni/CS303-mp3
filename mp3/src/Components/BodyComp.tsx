@@ -23,7 +23,7 @@ const BodyStyling = styled.div`
 `
 
 const MainStyles = styled.div`
-    // Main Styling
+    // Main Styling for nav and main components
     background-color: #FCFAF5;
     font-size: calc(2px + 1.4vw);
     width: 80%;

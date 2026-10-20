@@ -5,10 +5,7 @@ const Header = styled.header`
     padding: 1% 1% 1% 7%;
     margin: 0;
     height: 10%;
-    h1{
-        color: #FCFAF5;
-    }
-    h3{
+    h1, h3{
         color: #FCFAF5;
     }
     

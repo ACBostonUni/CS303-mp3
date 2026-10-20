@@ -4,6 +4,10 @@ export default function Skills(){
     return (
 
         <>
+            {
+                document.title = "Skills | AC Resume"
+            }
+
             <StyledH5>
                 Skills and Talents
             </StyledH5>

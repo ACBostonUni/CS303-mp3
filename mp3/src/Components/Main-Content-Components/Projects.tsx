@@ -52,6 +52,10 @@ export default function Projects(){
 
     return (
         <>
+            {
+                document.title = "Projects | AC Resume"
+            }
+
             <StyledH5> Calculator Project !</StyledH5>
 
             <StyledCalcPhoto src={CalcPhoto} alt="Clip Art of a hand drawn calculator"/>

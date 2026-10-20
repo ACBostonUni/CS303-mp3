@@ -8,6 +8,10 @@ export default function Home() {
     return (
 
         <>
+
+            {
+                document.title = "Home | AC Resume"
+            }
             <StyledH5>Home</StyledH5>
 
             <StyledACPhoto src={ACPhoto} alt="Austin Armando Camanez" id="ACPhoto"/>

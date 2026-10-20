@@ -4,6 +4,9 @@ import NwechsPhoto from "../..//assets/Screenshot_20260920_130634_Chrome.jpg"
 export default function Eduction(){
     return (
         <>
+            {
+                document.title = "Education | AC Resume"
+            }
             <StyledH5>Education</StyledH5>
             <StyledBUPhoto src={BUPhoto} alt="Boston University Logo"/>
 

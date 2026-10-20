@@ -5,6 +5,10 @@ export default function Eduction(){
     return (
 
         <>
+            {
+                document.title = "Achievements | AC Resume"
+            }
+
             <StyledH5>Achievements</StyledH5>
             <StyledACHPhoto src={ACHPhoto} alt="Clip art of an achievement badge"/>
             <StyledUL>

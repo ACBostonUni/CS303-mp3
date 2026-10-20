@@ -32,70 +32,70 @@ export const StyledUL = styled.ul`
 `
 
 export const StyledACPhoto = styled.img`
-    height: 57%;
-    width: 35%;
+    height: auto;
+    max-width: 35%;
     margin: 3% 0;
     
+    
     @media screen and (max-width: 800px){
-
-        height: 60%;
-        width: 55%;
+        height: auto;
+        max-width: 55%;
         
     }
     
 `
 
 export const StyledCNPhoto = styled.img`
-    height: 35%;
-    width: 60%;
+    height: auto;
+    max-width: 60%;
     margin: 2% 0;
     
 `
 
 export const StyledBUPhoto = styled.img`
-    height: 30%;
-    width: 35%;
+    height: auto;
+    max-width: 35%;
     
 `
 
 export const StyledNWECHSPhoto = styled.img`
-    height: 30%;
-    width: 35%;
+    height: auto;
+    max-width: 35%;
     margin: 2% 0;
 
 `
 export const StyledSkillsPhoto = styled.img`
-    height: 25%;
-    width: 25%;
+    height: auto;
+    max-width: 25%;
     margin: 2% 0;
     
     @media screen and (max-width: 800px){
 
-        height: 27%;
-        width: 33%;
+        height: auto;
+        max-width: 33%;
         
     }
 
 `
 export const StyledACHPhoto = styled.img`
-    height: 37%;
-    width: 25%;
+    height: auto;
+    max-width: 25%;
     margin: 2% 0;
     
     @media screen and (max-width: 800px){
-        height: 40%;
-        width: 30%;
+        height: auto;
+        max-width: 30%;
     }
 
 `
 export const StyledCalcPhoto = styled.img`
-    height: 27%;
-    width: 25%;
+    height: auto;
+    max-width: 25%;
     margin: 3% 0;
     
     @media screen and (max-width: 800px){
-        height: 26vw;
-        width: 27%;
+        height: auto;
+        max-width: 27%;
         
     }
 

@@ -159,6 +159,7 @@ export const StyledInputBox = styled.input`
     text-align: center;
     font-size: calc(6px + 1.2vw);
     font-family: "Agency FB", sans-serif;
+    font-weight: bold;
     border-color: #D45B5B;
     border-width: 4px;
     border-style: ridge;
